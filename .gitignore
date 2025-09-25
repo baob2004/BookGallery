@@ -1,0 +1,71 @@
+# ====================================
+# Build artifacts
+# ====================================
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.user
+*.suo
+*.tmp
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+# ====================================
+# .NET Core specific
+# ====================================
+*.nuget/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+TestResult*/
+TestResults/
+*.TestResults.xml
+
+# ====================================
+# IDE / Editor
+# ====================================
+
+# Visual Studio
+.vs/
+*.csproj.user
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# ====================================
+# Secrets / Config
+# ====================================
+.env
+.env.*        # e.g. .env.local, .env.production (but not .env.example)
+secrets.json
+appsettings.*.local.json
+appsettings.Development.json   # (optional: ignore if you only keep prod in Git)
+
+# ====================================
+# Others
+# ====================================
+*.swp
+*.bak
+*.orig
